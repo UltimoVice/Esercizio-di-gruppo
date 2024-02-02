@@ -1,0 +1,31 @@
+/* Partendo dalla card che hai creato nell'esercizio dell'unità HTML, aggiungi le proprietà CSS. Guarda il layout nel file xample.png presente nel file zip disponibile al download.
+
+**Suggerimento**:
+
+Prova rendere la card responsiva, in modo tale da adattarla al suo container.
+ */
+
+article {
+    border-radius: 5px;
+    border: 1px solid gray;
+    display: inline-block; 
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+h2, p, span {
+    position: relative;
+    padding-left: 10%;
+    padding-bottom: 10px;
+}
+
+p {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    
+    margin-right: 5%;
+}
