@@ -1,0 +1,56 @@
+/* Partendo dalla barra di navigazione che hai creato nell'esercizio HTML chiamato 'Navbar', aggiungi le proprietà CSS. 
+Il pulsante di ricerca dovrebbe avere un effetto di hover (sfondo verde e testo bianco al passaggio del mouse).
+
+**Suggestion**:
+Utilizza le classi per applicare le regole CSS invece degli id, dei tag o dello stile inline.
+ */
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+ .nav-style {
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(34, 36, 41);
+    color: white;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.link-dropdown {
+    color: rgb(156, 156, 159);
+}
+
+.disabled {
+    color: rgb(90, 92, 95);
+}
+
+.form{
+    padding-left: 100px;
+}
+
+.search-input {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.search-button {
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid green;
+    color: green;
+    background-color:rgb(34, 36, 41);
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+
+
