@@ -1,0 +1,50 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    grid-column: 1 / span 4;
+    text-align: end;
+    background-color: rgb(57, 67, 72);
+    color: white;
+    padding-right: 10px;
+}
+
+main {
+    grid-column: 1 / span 4;
+}
+
+.operator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+}
+
+.number {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+.equal {
+    grid-column: 4 / 5;
+    grid-row: 1 / 5;
+}
+
+.primary {
+    background-color: rgb(203, 215, 223);
+    border: 1px solid rgb(123, 146, 163);
+}
+
+.secondary {
+    background-color: rgb(236, 240, 243);
+    border: 1px solid rgb(123, 146, 163);
+}
+
+.tertiary {
+    background-color: rgb(255, 101, 110);
+    border: 1px solid rgb(123, 146, 163);
+}
